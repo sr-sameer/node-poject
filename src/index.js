@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/',(req,res)=>{
     return res.json({
-        message: 'server running fine'
+        message: 'server Fix fine'
     })
 })
 
