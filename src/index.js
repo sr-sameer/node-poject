@@ -11,7 +11,7 @@ app.get('/',(req,res)=>{
 app.get('/:something',(req,res)=>{
     return res.json({
         message: `server running ${req?.params?.something}`
-    })
+    });
 });
 
 
