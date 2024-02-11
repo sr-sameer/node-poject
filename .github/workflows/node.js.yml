@@ -27,5 +27,5 @@ jobs:
     - run: npm run build --if-present
     - run: |       
         touch .env   
-        echo "${{scerets.SECRET_FILE}}" > .env  
+        echo "${{secrets.SECRET_FILE}}" > .env  
     - run: pm2 restart omoc-backend
