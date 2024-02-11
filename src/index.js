@@ -12,7 +12,8 @@ app.get('/:something',(req,res)=>{
     return res.json({
         message: `server running ${req?.params?.something}`
     })
-})
+});
+
 
 app.listen(process.env.PORT,()=>{
     console.log('Server running fine')
